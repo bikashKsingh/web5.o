@@ -1,0 +1,53 @@
+/* Text Properties */
+
+/* 
+background-color: lightgrey;
+color: blue;
+text-align: center,left,right, justify;
+text-align-last: The text-align-last property specifies how to align the last line of a text.
+text-decoration: overline;
+    overline underline;
+    underline;
+    line-through;
+    none
+text-decoration-color : 
+text-decoration-style : solid
+    double
+    dotted
+    wavy
+    dashed
+text-decoration-thickness
+
+
+The Shorthand Property
+=======================
+The text-decoration property is a shorthand property for:
+
+text-decoration-line (required)
+text-decoration-color (optional)
+text-decoration-style (optional)
+text-decoration-thickness (optional)
+
+text-decoration : underline red dashed 20px;
+
+text-transform: uppercase, lowercase, capitalize
+
+
+text-indent : px
+letter-spacing : 5px; -5px;
+line-height : 1.2 default
+word-spacing : space between words
+white-space : nowrap, wrap
+
+text-shadow: 2px 2px;
+text-shadow: 2px 2px red;
+text-shadow: 2px 2px 5px red;
+*/
+
+/* * {
+  white-space: wrap;
+} */
+
+p {
+  color: red !important;
+}
