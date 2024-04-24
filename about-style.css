@@ -1,0 +1,40 @@
+/* h1 {
+  color: red;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: blue;
+}
+
+/* class selector */
+p.pera1,
+h1.pera1 {
+  color: red;
+}
+
+/* element selector */
+h1 {
+  font-size: 130px;
+}
+
+/* id selector */
+#p1 {
+  background-color: red;
+}
+
+.pera2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div h2 {
+  text-decoration-line: overline;
+}
+
+.section > .h2 {
+  color: green;
+}
