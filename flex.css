@@ -1,3 +1,7 @@
+:root {
+  --color: #148f77;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
@@ -12,18 +16,20 @@
   height: 30px;
   justify-content: center;
   align-items: center;
-  color: #148f77;
+  color: var(--color);
   /* font-family: ; */
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #148f77;
+  height: 50px;
+  align-items: center;
 }
 
 .navbar .nav {
@@ -61,3 +67,49 @@
   background-color: red;
   flex-basis: 80%;
 } */
+
+.intro {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+.intro .section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.intro .heading {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.intro img {
+  height: 550px;
+}
+.intro .text {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.intro .btn {
+  padding: 15px;
+  background-color: var(--color);
+  color: white;
+  border: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 19px;
+  border-radius: 50px;
+}
+
+.subscribe {
+  height: 500px;
+  background-color: #e0e0e0;
+}
