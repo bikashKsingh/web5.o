@@ -1,0 +1,63 @@
+/* https://fontawesome.com/v4/icons/ */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --u-padding: 10px 10% 10px 10%;
+  --primary-color: #81391d;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contact-Bar */
+.contact-bar {
+  display: flex;
+  justify-content: end; /* flex-end */
+  padding: var(--u-padding);
+  font-size: 15px;
+  color: #000;
+
+  border-bottom: 1px dashed #ececec;
+  /*  */
+}
+
+.contact-bar a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+/* top-nav */
+.top-nav {
+  padding: var(--u-padding);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-nav .brand .logo {
+  width: 120px;
+}
+
+.top-nav .search-form .form input {
+  background-color: #f7f7f7;
+  border: 0;
+  padding: 10px 30px;
+  width: 250px;
+  height: 25px;
+  outline: none;
+}
+.top-nav .search-form .form button {
+  background-color: #ffdbae;
+  border: 0;
+  width: 50px;
+  height: 45px;
+  outline: none;
+  margin-left: -10px;
+  margin-top: 10px;
+}
+.top-nav .search-form .form button i {
+  font-size: 20px;
+  color: var(--primary-color);
+}
