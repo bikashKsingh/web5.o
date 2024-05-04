@@ -39,6 +39,9 @@
 .top-nav .brand .logo {
   width: 120px;
 }
+.top-nav .search-form .form {
+  display: flex;
+}
 
 .top-nav .search-form .form input {
   background-color: #f7f7f7;
@@ -54,10 +57,79 @@
   width: 50px;
   height: 45px;
   outline: none;
-  margin-left: -10px;
-  margin-top: 10px;
 }
 .top-nav .search-form .form button i {
   font-size: 20px;
   color: var(--primary-color);
 }
+
+/* header-icons */
+
+.top-nav .header-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.top-nav .header-icons img {
+  height: 25px;
+}
+
+.top-nav .header-icons a {
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 500;
+  position: relative;
+}
+.top-nav .header-icons .badge {
+  height: 15px;
+  background-color: #ff0000;
+  width: 15px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  line-height: 15px;
+}
+
+/* navbar */
+.navbar {
+  padding: var(--u-padding);
+}
+.navbar .nav {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar .nav a {
+  text-decoration: none;
+}
+
+.navbar .nav li {
+  position: relative;
+}
+
+.navbar .nav li ul {
+  background-color: #cbc5c3;
+  list-style: none;
+  margin-left: 10px;
+  padding: 10px;
+  display: none;
+  position: absolute;
+}
+
+.navbar .nav li:hover ul {
+  display: block;
+}
+
+/* Position */
+/* fixed
+sticky
+relative
+absolute */
